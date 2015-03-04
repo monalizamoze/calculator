@@ -59,7 +59,10 @@ public class CalculatorController {
 //	  Calculator calc = (Calculator)(((ModelMap)model).get("calc"));
 //	  if(calc!=null)System.out.println("our calc : "+ calc.getAdd1());
 //	  else System.out.println("No Cal in model");
+	  System.out.print("hello");
 	  return "CalculatorView";
+	  
+	  
   }
  
 }
